@@ -1,1 +1,22 @@
-
+:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	
+	title {
+    	display: inline;
+		padding: 1rem;
+		gap:2rem;
+    	color: rgb(0, 255, 162);
+  	}
+  	body {background-color: rgb(1, 17, 79);}
+  	h1 {
+    	color: rgb(192, 254, 255);
+  	}
